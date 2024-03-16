@@ -47,3 +47,8 @@ You will need a RISC-V "newlib" tool chain from
 https://github.com/riscv/riscv-gnu-toolchain, and qemu compiled for
 riscv64-softmmu.  Once they are installed, and in your shell
 search path, you can run "make qemu".
+
+
+LAB1: utils discussion
+sleep: see the system call procedure of sleep and awake in chapter7
+pingpong: race condition on the stdout, pipe is only one way
